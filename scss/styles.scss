@@ -1,0 +1,245 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+nav{
+    background-color:white;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+} 
+.logo{
+    height:40px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 15px;
+}
+nav ul li{
+    display: inline-block;
+    line-height:80px;
+    margin: 0 20px;
+}
+nav ul li a {
+    color: black;
+    font-size:18px;
+    padding:7px 13px;
+}
+
+li a.active, li a:hover{
+    background-color:#FF5672;
+    transition: .5s;
+}
+.checkbtn{
+    font-size:30px;
+    color:black;
+    float:right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display:none;
+}
+#check{
+    display:none;
+}
+
+.banners{
+    /* background:url('https://images.unsplash.com/photo-1633113090205-cc1ac795b5f9?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80') no-repeat; */
+    background-color: #FC758C;
+    background-size: cover;
+    background-position:center center;
+    height:calc(100vh - 80px);
+}
+.banner-content{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%; 
+    color: #FFF;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    /* background-color:rgba(0, 22, 40, .7); */
+}
+.banner-content h1{
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.text-banner{
+    padding-top: 1em;
+    width: 30%;
+}
+.btn-banner{
+    margin: 2em 0;
+    padding:0.3em  1em;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #FFF;
+    color: #f86c84;
+}
+.btn-banner:hover{
+    background-color:#f86c84;
+    color: #FFF;
+    transition:ease-in-out .1;
+
+}
+.icons{
+    color:#f86c84;
+    padding:2%;
+}
+
+
+.footer{
+    display: table;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2em;
+  
+    
+}
+.icon-f{
+    font-size:25px;
+    font-weight: bold;
+    padding:15px;
+    color:gray;
+    cursor: pointer;
+
+}
+.icon-f:hover{
+    color:#f86c84;
+    font-size:35px;
+    transition: 0.5s;
+
+}
+img {
+    max-width: 100%;
+    display: block;
+    
+  }
+  
+  .masonry-layout {
+    --columns: 1;
+    --gap: 1.2rem;
+    $columns: 6;
+    
+    display: grid;
+    grid-template-columns: repeat(var(--columns),1fr);
+    grid-gap: var(--gap);
+    
+    .masonry-item{
+      margin-bottom: var(--gap);
+    }
+    
+    @for $i from 1 through $columns {
+      &.columns-#{$i}{
+        --columns: #{$i};
+      }
+    }
+  }
+
+
+
+  
+
+  @media screen and (max-width: 1024px){
+    .masonry-layout {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a {
+        font-size: 16px;
+        transition:  .2s;
+    }
+
+    .banners{
+        padding-top: 5%;
+        
+    }
+    
+}
+
+@media (max-width: 767px) {  
+
+    .masonry-layout {
+        
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+
+    .checkbtn{
+        display: block;
+    }
+
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #F2F2F2;
+        top:80px;
+        left:-100%;
+        text-align:center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin:50px 0;
+        line-height: 30px;
+        
+    }
+    nav ul li a {
+        font-size:20px;
+        font-weight: bold;
+        
+    }
+
+    li a:hover, li a.active{
+        background: none;
+        color: #FF5672;
+    }
+
+    #check:checked ~ ul{
+        left:0;
+    }
+
+    .banners{
+        padding-top: 5%;
+            
+    }
+
+    .banner-content h1{
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        font-size:20px;
+    }
+
+    .text-banner{
+        padding-top: 1em;
+        width: 80%;
+        padding: 10px;
+    }
+    
+}

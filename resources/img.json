@@ -1,0 +1,46 @@
+[
+    {
+        "url":"https://images.unsplash.com/photo-1634141456262-f51dac502fed?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=464&q=80",
+        "texto":"prueba 1",
+        "tamaño":"card card_small"
+    },
+    {
+        "url":"https://images.unsplash.com/photo-1634351440426-020152a2a495?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=429&q=80",
+        "texto":"prueba 2",
+        "tamaño":"card card_medium"
+    },
+    {
+        "url":"https://images.unsplash.com/photo-1634315618787-e6379061e00a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+        "texto":"prueba 3",
+        "tamaño":"card card_large"
+    },
+    {
+        "url":"https://images.unsplash.com/photo-1634579629112-21dae7d0fec6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+        "texto":"prueba 4",
+        "tamaño":"card card_large"
+    },
+    {
+        "url":"https://images.unsplash.com/photo-1634151296702-962d96fe5a18?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1032&q=80",
+        "texto":"prueba 5",
+        "tamaño":"card card_large"
+    },
+    {
+        "url":"https://images.unsplash.com/photo-1634538783898-010d08356c24?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80",
+        "texto":"prueba 6",
+        "tamaño":"card card_large"
+    },
+    {
+        "url":"https://images.unsplash.com/photo-1634496510773-f3c39737bf4a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=371&q=80",
+        "texto":"prueba 7",
+        "tamaño":"card card_large"
+    },
+    {
+        "url":"https://images.unsplash.com/photo-1634542881441-28bf0c4b818b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80",
+        "texto":"prueba 8",
+        "tamaño":"card card_large"
+    }
+
+
+
+
+]
